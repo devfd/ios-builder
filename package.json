@@ -1,6 +1,6 @@
 {
   "name": "ios-builder",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Build and export to IPA. Automatically",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
   "dependencies": {
     "bluebird": "^2.1.3",
     "glob": "^4.0.3",
+    "jszip": "^2.5.0",
     "lodash": "^2.4.1",
     "plist": "^1.0.1"
   },

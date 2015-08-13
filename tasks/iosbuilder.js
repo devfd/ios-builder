@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           profileId: data.profileId,
           identity: data.identity,
           prebuild: data.prebuild || config.prebuild
-        })
+        });
       })
       .then(done);
     });
